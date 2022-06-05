@@ -1,8 +1,8 @@
 {
-  "name": "acorn-english-admin",
-  "version": "0.5.8",
+  "name": "joyce-secret-base",
+  "version": "0.0.1",
   "private": true,
-  "author": "Arnold Liu <axdliu@gmail.com>",
+  "author": "Acornus <acornus2022@gmail.com>",
   "dependencies": {
     "@babel/core": "7.9.0",
     "@jaredreisinger/react-crossword": "^2.3.1",
