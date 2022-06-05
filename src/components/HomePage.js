@@ -3,7 +3,6 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
 import MainView from './MainView';
-import Navbar from './Navbar';
 import Footer from './Footer';
 
 const HomePage = () => {

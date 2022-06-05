@@ -3,13 +3,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'semantic-ui-css/semantic.min.css';
-import './utils/polyfills';
 import App from './App';
 import './css/index.css';
 import './css/App.css';
 import './css/carousel.css';
-import registerServiceWorker from './utils/registerServiceWorker';
-import appStore from './stores/appStore';
 import { Provider } from 'mobx-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
@@ -19,10 +16,7 @@ setTimeout(
 	() =>
 		// the show/hide functions are passed as props
 		ReactDOM.render(
-			<Provider
-				{...{
-					appStore,
-				}}>
+			<Provider>
 				<App />
 			</Provider>,
 			document.getElementById('root')
@@ -30,4 +24,3 @@ setTimeout(
 	1000
 );
 
-registerServiceWorker();
