@@ -1,0 +1,35 @@
+/** @format */
+
+#background-violet {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+.draggable-content > div {
+	position: absolute;
+	width: 380px;
+	height: 90px;
+	overflow: visible;
+	pointer-events: auto;
+	transform-origin: 50% 50% 0px;
+	border-radius: 5px;
+	color: white;
+	line-height: 90px;
+	font-size: 20px;
+	background: lightblue;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.draggable-content > div:nth-child(1) {
+	background: linear-gradient(135deg, #db8f8f 0%, #fa2929 100%);
+}
+.draggable-content > div:nth-child(2) {
+	background: linear-gradient(135deg, #5ee7df 0%, #0978ac 100%);
+}
+.draggable-content > div:nth-child(3) {
+	background: linear-gradient(135deg, #f093fb 0%, #f557e0 100%);
+}
+.draggable-content > div:nth-child(4) {
+	background: linear-gradient(135deg, #6b6fc9 0%, #203574 100%);
+}

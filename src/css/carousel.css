@@ -1,0 +1,33 @@
+/** @format */
+
+img {
+	width: auto;
+	height: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black !important;
+}
+
+.slick-dots {
+	line-height: 10% !important;
+}
+
+.slick-dots li.slick-active button:before {
+	font-size: 10px !important;
+}
+
+.img-responsive {
+	height: auto;
+	width: auto;
+	max-height: 35px !important;
+	max-width: 120px !important;
+	/* special setup for Xmas */
+	/* margin-top: -10px !important; */
+	/* padding-right: 5px !important; */
+}
+
+.menu-item {
+	font-size: 18px !important;
+}
