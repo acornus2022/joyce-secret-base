@@ -7,7 +7,6 @@ import App from './App';
 import './css/index.css';
 import './css/App.css';
 import './css/carousel.css';
-import { Provider } from 'mobx-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
@@ -16,9 +15,7 @@ setTimeout(
 	() =>
 		// the show/hide functions are passed as props
 		ReactDOM.render(
-			<Provider>
-				<App />
-			</Provider>,
+			<App />,
 			document.getElementById('root')
 		),
 	1000
