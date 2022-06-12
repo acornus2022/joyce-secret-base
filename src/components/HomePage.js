@@ -12,14 +12,14 @@ const HomePage = () => {
 				<h1>JOYCE is the best!</h1>
 				<h4>Riddle</h4>
 				<Container text>
-					<p>A bundle of Blubber</p>
-					<p>a sight for Landlubbers</p>
-					<p>I wave with a slap-happy Tail</p>
-					<p>A saltwater Fountain</p>
-					<p>just sprayin' and spoutin'</p>
-					<p>look out! Thar I blow! I'm a ...</p>
+					<p>A bundle of <span style={{ color: "red" }}>Blubber</span></p>
+					<p>a sight for <span style={{ color: "purple" }}>Landlubbers</span></p>
+					<p>I wave with a slap-happy <span style={{ color: "green" }}>Tail</span></p>
+					<p>A saltwater  <span style={{ color: "blue" }}>Fountain</span></p>
+					<p style={{ backgroundColor: "yellow" }}>just sprayin' and spoutin'</p>
+					<p style={{ backgroundColor: "orange" }}>look out! Thar I blow! I'm a ...</p>
 				</Container>
-				<Button onClick={() => setShowAnswer(true)}>Show me the answer</Button>
+				<Button onClick={() => setShowAnswer(true)} style={{ color: "violet", backgroundColor: "black" }}>Show me the answer</Button>
 				{showAnswer && <Image src={myImage} fluid />}
 			</Container>
 			{/* <Footer version={global.appVersion} /> */}
