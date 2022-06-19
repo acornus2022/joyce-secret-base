@@ -9,7 +9,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<Container text>
-				<h1>JOYCE is the best!</h1>
+				<h1>Joyce!</h1>
 				<h4>Riddle</h4>
 				<Container text>
 					<p>A bundle of <span style={{ color: "red" }}>Blubber</span></p>
