@@ -13,11 +13,11 @@ const HomePage = () => {
 				<h4>Riddle</h4>
 				<Container text>
 					<p>A bundle of <span style={{ color: "red" }}>Blubber</span></p>
-					<p>a sight for <span style={{ color: "purple" }}>Landlubbers</span></p>
-					<p>I wave with a slap-happy <span style={{ color: "green" }}>Tail</span></p>
+					<p>a sight for <span style={{ color: "orange" }}>Landlubbers</span></p>
+					<p>I wave with a slap-happy <span style={{ color: "yellow" }}>Tail</span></p>
 					<p>A saltwater  <span style={{ color: "blue" }}>Fountain</span></p>
-					<p style={{ backgroundColor: "yellow" }}>just sprayin' and spoutin'</p>
-					<p style={{ backgroundColor: "orange" }}>look out! Thar I blow! I'm a ...</p>
+					<p>just sprayin' and spoutin'</p>
+					<p>look out! Thar I blow! I'm a ...</p>
 				</Container>
 				<Button onClick={() => setShowAnswer(true)} style={{ color: "violet", backgroundColor: "black" }}>Show me the answer</Button>
 				{showAnswer && <Image src={myImage} fluid />}
