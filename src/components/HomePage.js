@@ -1,7 +1,7 @@
 /** @format */
 
 import React, { useState } from 'react';
-import { Container, Button, Image } from 'semantic-ui-react';
+import { Container, Button, Image, Embed } from 'semantic-ui-react';
 import myImage from '../images/answer.png';
 
 const HomePage = () => {
@@ -20,7 +20,12 @@ const HomePage = () => {
 					<p>look out! Thar I blow! I'm a ...</p>
 				</Container>
 				<Button onClick={() => setShowAnswer(true)} style={{ color: "violet", backgroundColor: "black" }}>Show me the answer</Button>
-				{showAnswer && <Image src={myImage} fluid />}
+				{showAnswer && <Embed
+					id='mdCa20EKTcY'
+					placeholder={myImage}
+					source='youtube'
+				/>}
+				{/* {showAnswer && <Image src={myImage} fluid />} */}
 			</Container>
 			{/* <Footer version={global.appVersion} /> */}
 		</div>
