@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Container, Button, Image, Embed } from 'semantic-ui-react';
 import myImage from '../images/answer.png';
+import whaleVideo from "../video/whaleVideo.mp4";
 import whaleSong from '../sound/whaleSong.wav';
 
 const HomePage = () => {
@@ -30,11 +31,7 @@ const HomePage = () => {
 						<source src={whaleSong} type="audio/wav" />
 						Your browser does not support the audio element.
 					</audio>}
-				{showAnswer && <Embed
-					id='mdCa20EKTcY'
-					placeholder={myImage}
-					source='youtube'
-				/>}
+				{showAnswer && <video controls src={whaleVideo} type="video/mp4" />}
 				{/* {showAnswer && <Image src={myImage} fluid />} */}
 			</Container>
 			{/* <Footer version={global.appVersion} /> */}
